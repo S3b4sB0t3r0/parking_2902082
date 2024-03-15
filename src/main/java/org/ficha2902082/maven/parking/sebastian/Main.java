@@ -1,7 +1,7 @@
 package org.ficha2902082.maven.parking.sebastian;
 //inportar dependencias 
 
-import org.apache.http.config.Registry;
+
 import org.ficha2902082.maven.parking.sebastian.entities.Carro;
 import org.ficha2902082.maven.parking.sebastian.entities.Cliente;
 import org.ficha2902082.maven.parking.sebastian.entities.Cupo;
@@ -73,7 +73,7 @@ public class Main {
         for(Registro r : misResgistros ){
 
             System.out.println( " Placa: " + r.carro.placa + "|" + "Cupo: " + r.cupo.letra + "|" + "Valor: " + r.valor + "|" + "Fecha Inicio: " + r.fechaInicio.toString() + "|"
-            + "Fecha Final" + r.fechaFin.toString() + "|" + );
+            + "Fecha Final" + r.fechaFin.toString() + "|"  );
 
         }
         
